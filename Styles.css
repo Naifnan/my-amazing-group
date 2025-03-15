@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container to hold content */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+/* Highlight text */
+.highlight {
+    font-weight: bold;
+    color: #ff4500;
+}
+
+/* Members list */
+.members-list {
+    margin-top: 20px;
+}
+
+.member {
+    font-size: 1.2em;
+    background-color: #ffe0b2;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+    color: #555;
+}
+
+/* Closing statements */
+.closing {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #ff4500;
+}
